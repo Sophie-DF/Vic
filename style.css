@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: 'Raleway', sans-serif;
+    color: rgb(71, 95, 140);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 55px;
+}
+
+i {
+    font-size: xx-large;
+    color: rgb(80, 154, 158);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+}
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.liaison {
+    padding-left: 9px;
+    padding-right: 9px;    
+}
+
+.conteneur_image_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 452px;
+    width: 302px;
+    margin-bottom: 100px;
+}
+
+main {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h2, h3 {
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 40px;
+    background-color: aliceblue;
+}
+.telephone, .e-mail {
+    display: flex;
+    justify-content: flex-start;
+}
+.fa-phone, .fa-envelope {
+    font-size: medium;
+    color: rgb(48, 47, 47);
+    padding-right: 10px;
+}
+
+@media (max-width: 544px) {
+    h1 {
+        flex-direction: column;
+        
+    }
+
+
+
+
+}
+    
